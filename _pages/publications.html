@@ -5,13 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+In this page, you can find a selection of publications, including journal articles and conference contributions. 
+In addition, the full list of journal articles, preprints and contributions to conferences and workshops is provided at the end of the page.
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -32,5 +30,230 @@ author_profile: true
   {% endfor %}
 {% endif %}
 
+<h2>Full Lists</h2>
+<ul>
+  <li><a href="#journal-articles">Journal Articles [J]</a></li>
+  <li><a href="#preprints">Preprints [P]</a></li>
+  <li><a href="#conferences">Contributions to Conferences [C]</a></li>
+  <li><a href="#workshops">Workshops & Other Conferences [W]</a></li>
+</ul>
+
+<hr id="journal-articles" style="border: 0; height: 4px; background-color: rgb(30, 106, 206);" />
+<p><strong>Full list of journal articles:</strong></p>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ol.jlist {
+  counter-reset: j-counter; /* initialize counter */
+  list-style: none;
+  padding-left: 0;
+}
+
+ol.jlist li::before {
+  counter-increment: j-counter;
+  content: "[J" counter(j-counter) "] ";
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<ol class="jlist">
+  <li>C. Introini, S. Cavalleri, S. Lorenzi, Stefano Riva, and A. Cammi, “Stabilization of Generalized Empirical Interpolation Method (GEIM) in presence of noise: A novel approach based on Tikhonov regularization,” Computer Methods in Applied Mechanics and Engineering, vol. 404, p. 115773, 2023. <a href="https://www.sciencedirect.com/science/article/pii/S0045782522007290">URL</a>, doi:10.1016/j.cma.2022.115773.</li>
+
+  <li>C. Introini, Stefano Riva, S. Lorenzi, S. Cavalleri, and A. Cammi, “Non-intrusive system state reconstruction from indirect measurements: A novel approach based on hybrid data assimilation methods,” Annals of Nuclear Energy, vol. 182, p. 109538, 2023. <a href="https://www.sciencedirect.com/science/article/pii/S0306454922005680">URL</a>, doi:10.1016/j.anucene.2022.109538.</li>
+
+  <li>Stefano Riva, C. Introini, S. Lorenzi, and A. Cammi, “Hybrid data assimilation methods, Part I: Numerical comparison between GEIM and PBDW,” Annals of Nuclear Energy, vol. 190, p. 109864, 2023. <a href="https://www.sciencedirect.com/science/article/pii/S0306454923001834">URL</a>, doi:10.1016/j.anucene.2023.109864.</li>
+
+  <li>Stefano Riva, C. Introini, S. Lorenzi, and A. Cammi, “Hybrid Data Assimilation methods, Part II: Application to the DYNASTY experimental facility,” Annals of Nuclear Energy, vol. 190, p. 109863, 2023. <a href="https://www.sciencedirect.com/science/article/pii/S0306454923001822">URL</a>, doi:10.1016/j.anucene.2023.109863.</li>
+
+  <li>Stefano Riva, C. Introini, and A. Cammi, “A finite element implementation of the incompressible Schrödinger flow method,” Physics of Fluids, vol. 36, p. 017138, 01 2024. doi:10.1063/5.0180356.</li>
+
+  <li>A. Cammi, Stefano Riva, C. Introini, L. Loi, and E. Padovani, “Data-driven model order reduction for sensor positioning and indirect reconstruction with noisy data: Application to a Circulating Fuel Reactor,” Nuclear Engineering and Design, vol. 421, p. 113105, 2024. <a href="https://www.sciencedirect.com/science/article/pii/S002954932400205X">URL</a>, doi:10.1016/j.nucengdes.2024.113105.</li>
+
+  <li>L. Loi, Stefano Riva, C. Introini, F. Giacobbo, X. Wang, and A. Cammi, “OFELIA: An OpenMC-FEniCSx coupling for neutronic calculation with temperature feedback,” Nuclear Engineering and Design, vol. 428, p. 113480, 2024. <a href="https://www.sciencedirect.com/science/article/pii/S0029549324005806">URL</a>, doi:10.1016/j.nucengdes.2024.113480.</li>
+
+  <li>Stefano Riva, C. Introini, and A. Cammi, “Multi-physics model bias correction with data-driven reduced order techniques: Application to nuclear case studies,” Applied Mathematical Modelling, vol. 135, pp. 243–268, 2024. <a href="https://www.sciencedirect.com/science/article/pii/S0307904X24003196">URL</a>, doi:10.1016/j.apm.2024.06.040.</li>
+
+  <li>M. Lo Verso, Stefano Riva, C. Introini, E. Cervi, F. Giacobbo, L. Savoldi, M. Di Prinzio, M. Caramello, L. Barucca, and A. Cammi, “Application of a non-intrusive reduced order modeling approach to magnetohydrodynamics,” Physics of Fluids, vol. 36, p. 107167, 10 2024. doi:10.1063/5.0230708.</li>
+
+  <li>Stefano Riva, C. Introini, E. Zio, and A. Cammi, “Impact of malfunctioning sensors on data-driven reduced order modelling: Application to molten salt reactors,” EPJ Web Conf., vol. 302, p. 17003, 2024. doi:10.1051/epjconf/202430217003.</li>
+
+  <li>M. Lo Verso, Stefano Riva, C. Introini, E. Cervi, L. Barucca, M. Caramello, M. Di Prinzio, F. Giacobbo, L. Savoldi, and A. Cammi, “Enhancing computational efficiency in nuclear fusion through reduced order modelling: Applications in magnetohydrodynamics,” Fusion Engineering and Design, vol. 216, p. 115080, 2025. <a href="https://www.sciencedirect.com/science/article/pii/S0920379625002777">URL</a>, doi:10.1016/j.fusengdes.2025.115080.</li>
+
+  <li>Stefano Riva, C. Introini, A. Cammi, and J. N. Kutz, “Robust state estimation from partial out-core measurements with shallow recurrent decoder for nuclear reactors,” Progress in Nuclear Energy, vol. 189, p. 105928, 2025. <a href="https://www.sciencedirect.com/science/article/pii/S0149197025003269">URL</a>, doi:10.1016/j.pnucene.2025.105928.</li>
+
+  <li>M. A. Nasr, L. Loi, Stefano Riva, A. Zolfaghari, X. Wang, and A. Cammi, “Enhancing multi-physics modeling in new-generation nuclear reactors using machine learning: Implementing gaussian process regression for updating cross sections,” Annals of Nuclear Energy, vol. 224, p. 111720, 2025. <a href="https://www.sciencedirect.com/science/article/pii/S0306454925005377">URL</a>, doi:10.1016/j.anucene.2025.111720.</li>
+
+  <li>Stefano Riva, S. Deanesi, C. Introini, S. Lorenzi, and A. Cammi, “Real-time state estimation of neutron flux in molten salt fast reactors from out-core sparse measurements,” Nuclear Science and Engineering, vol. 0, no. 0, pp. 1–14, 2025. doi:10.1080/00295639.2025.2531477.</li>
+
+  <li>Stefano Riva, C. Introini, E. Zio, and A. Cammi, “Data-driven reduced order modelling with malfunctioning sensors recovery applied to the molten salt reactor case,” EPJ Nuclear Sci. Technol., vol. 11, p. 55, 2025. doi:10.1051/epjn/2025054.</li>
+
+  <li>Stefano Riva, A. Missaglia, C. Introini, I. C. Bang, and A. Cammi, “A Comparison of Parametric Dynamic Mode Decomposition Algorithms for Thermal-Hydraulics Applications,” accepted for publication at Nuclear Technology, Mar. 2025. <a href="http://arxiv.org/abs/2503.24205">URL</a>, doi:10.48550/arXiv.2503.24205.</li>
+
+</ol>
+
+</body>
+</html>
+
+<hr id="preprints" style="border: 0; height: 1px; background-color: #000;" />
+<p><strong>Full list of preprints:</strong></p>
+
+<style>
+ol.plist {
+  counter-reset: p-counter; /* initialize counter */
+  list-style: none;
+  padding-left: 0;
+}
+
+ol.plist li::before {
+  counter-increment: p-counter;
+  content: "[P" counter(p-counter) "] ";
+  font-weight: bold;
+}
+</style>
+
+<ol class="plist">
+  <li>Stefano Riva, C. Introini, and A. Cammi, “pyforce: Python framework for data-driven model order reduction of multi-physics problems,” under review at Journal of Open Source Software, 2024.</li>
+
+  <li>Stefano Riva, C. Introini, J. N. Kutz, and A. Cammi, “Towards Efficient State Estimation in Circulating Fuel Reactors with Shallow Recurrent Decoder Networks,” submitted to Chemical Engineering Science, 2025. Preprint available at <a href="https://arxiv.org/abs/2503.08904">arXiv:2503.08904</a>.</li>
+
+  <li>C. Introini, Stefano Riva, A. Cammi, and J. N. Kutz, “From Models To Experiments: Shallow Recurrent Decoder Networks on the DYNASTY Experimental Facility,” in preparation for Nuclear Engineering and Design, 2025. Preprint available at <a href="https://arxiv.org/abs/2503.08907">arXiv:2503.08907</a>.</li>
+
+  <li>D. Ye, J. Williams, M. Gao, Stefano Riva, M. Tomasetto, D. Zoro, and J. N. Kutz, “PySHRED: A Python package for SHallow REcurrent Decoding for sparse sensing, model reduction and scientific discovery,” 2025. URL: <a href="https://arxiv.org/abs/2507.20954">arXiv:2507.20954</a>.</li>
+
+  <li>Stefano Riva, C. Introini, J. N. Kutz, and A. Cammi, “Constrained Sensing and Reliable State Estimation with Shallow Recurrent Decoders on a TRIGA Mark II Reactor,” 2025. URL: <a href="https://arxiv.org/abs/2510.12368">arXiv:2510.12368</a>.</li>
+
+  <li>P. M. Wyder, J. Goldfeder, A. Yermakov, Y. Zhao, Stefano Riva, J. P. Williams, D. Zoro, A. S. Rude, M. Tomasetto, J. Germany, J. Bakarji, G. Maierhofer, M. Cranmer, and J. N. Kutz, “Commontask framework for a critical evaluation of scientific machine learning algorithms,” 2025. URL: <a href="https://arxiv.org/abs/2510.23166">arXiv:2510.23166</a>.</li>
+</ol>
+
+<hr id="conferences" style="border: 0; height: 1px; background-color: #000;" />
+<p><strong>Full list of contributions to international conferences:</strong></p>
+
+<style>
+ol.clist {
+  counter-reset: c-counter; /* initialize counter */
+  list-style: none;
+  padding-left: 0;
+}
+
+ol.clist li::before {
+  counter-increment: c-counter;
+  content: "[C" counter(c-counter) "] ";
+  font-weight: bold;
+}
+</style>
+
+<ol class="clist">
+  <li>Stefano Riva, A. Cammi, and C. Introini, “Inviscid Fluid Simulation through Incompressible Schrödinger Flow: a Finite Element approach,” in 31st International Conference Nuclear Energy for New Europe (NENE2022), (Portoroz, Slovenia), September 2022.</li>
+
+  <li>A. Cammi, Stefano Riva, C. Introini, L. Loi, and E. Padovani, “Indirect Field Reconstruction and Sensor Positioning in Circulating Fuel Reactors using Data-Driven Model Order Reduction,” in 2023 International Congress on Advances in Nuclear Power Plants, (Gyeongju, Korea), April 2023.</li>
+
+  <li>Stefano Riva, C. Introini, and A. Cammi, “Multi-Physics Model Correction with Data-Driven Reduced Order Modelling,” in 32nd International Conference Nuclear Energy for New Europe (NENE2023), (Portoroz, Slovenia), September 2023.</li>
+
+  <li>Stefano Riva, L. Loi, C. Introini, A. Cammi, and X. Wang, “FEniCSx-OpenMC Coupling for Neutronic Calculation with Temperature Feedback,” in 32nd International Conference Nuclear Energy for New Europe (NENE2023), (Portoroz, Slovenia), September 2023.</li>
+
+  <li>L. Loi, Stefano Riva, C. Introini, A. Cammi, and E. Padovani, “OpenMC Analysis of TRIGA Mark II Reactor Void and Temperature Reactivity Coefficients,” in 32nd International Conference Nuclear Energy for New Europe (NENE2023), (Portoroz, Slovenia), September 2023.</li>
+
+  <li>Stefano Riva, S. Deanesi, C. Introini, S. Lorenzi, and A. Cammi, “Neutron flux reconstruction from out-core sparse measurements using data-driven reduced order modelling,” in Proceedings of the International Conference on Physics of Reactors, PHYSOR 2024, p. 1632–1641, 2024. doi:10.13182/PHYSOR24-43444.</li>
+
+  <li>L. Loi, Stefano Riva, C. Introini, E. Padovani, F. Giacobbo, and A. Cammi, “An alternative approach for group constants regression based on supervised learning techniques,” in Proceedings of the International Conference on Physics of Reactors, PHYSOR 2024, p. 1674–1683, 2024. doi:10.13182/PHYSOR24-43521.</li>
+
+  <li>Stefano Riva, A. Missaglia, C. Introini, I. C. Bang, and A. Cammi, “A Novel Approach for Parametric Dynamic Mode Decomposition: Application to the DYNASTY Experimental Facility,” in The 14th International Topical Meeting on Nuclear Reactor Thermal-Hydraulics, Operation, and Safety (NUTHOS-14), (Vancouver, Canada), August 2024. doi:10.13182/NUTHOS14-231.</li>
+
+  <li>C. G. De Lurion De L’Égouthail, L. Loi, Stefano Riva, C. Introini, and A. Cammi, “Shadowing Effect Correction for the Pavia TRIGA Reactor Using Monte Carlo Data and Reduced Order Modelling Techniques,” in The 33rd International Conference Nuclear Energy for New Europe (NENE2024), (Portoroz, Slovenia), September 2024.</li>
+
+  <li>R. Boccelli, L. Loi, Stefano Riva, C. Introini, S. Lorenzi, and A. Cammi, “Analysis of KRUSTY reactor behaviour with OFELIA environment,” in The 33rd International Conference Nuclear Energy for New Europe (NENE2024), (Portoroz, Slovenia), September 2024.</li>
+
+  <li>Stefano Riva, C. Introini, J. N. Kutz, and A. Cammi, “Shallow Recurrent Decoders for State Estimation in Parametric Accidental Scenarios of Circulating Fuel Nuclear Reactors,” in 21st International Topical Meeting on Nuclear Reactor Thermal Hydraulics (NURETH-21), (Busan, Korea), September 2025.</li>
+
+  <li>Stefano Riva, A. Missaglia, C. Introini, J. N. Kutz, and A. Cammi, “Verification and Validation of Shallow Recurrent Decoders for State Estimation in the DYNASTY facility,” in 21st International Topical Meeting on Nuclear Reactor Thermal Hydraulics (NURETH-21), (Busan, Korea), September 2025.</li>
+
+  <li>Y. Xu, C. Introini, Stefano Riva, X. Zeng, M. Peng, Y. Wang, G. Xia, and A. Cammi, “Parametric Reduced-Order Modeling of Once-Through Steam Generators using Proper Orthogonal Decomposition and LSTM Neural Networks,” in 21st International Topical Meeting on Nuclear Reactor Thermal Hydraulics (NURETH-21), (Busan, Korea), September 2025.</li>
+
+  <li>M. Lo Verso, Stefano Riva, C. Introini, E. Cervi, F. Giacobbo, M. Di Prinzio, M. Caramello, L. Savoldi, and A. Cammi, “Parametric Model Discovery in Magneto-Hydrodynamics,” in 21st International Topical Meeting on Nuclear Reactor Thermal Hydraulics (NURETH-21), (Busan, Korea), September 2025.</li>
+
+  <li>P. M. Wyder, J. A. Goldfeder, A. Yermakov, Y. Zhao, Stefano Riva, J. P. Williams, D. Zoro, A. S. Rude, M. Tomasetto, J. Germany, J. Bakarji, G. Maierhofer, M. Cranmer, and J. N. Kutz, “CommonTaskFramework For a Critical Evaluation of Scientific Machine Learning Algorithms,” in The 39th Annual Conference on Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track, November 2025. URL: <a href="https://openreview.net/forum?id=pkFKjmUE3L">link</a>.</li>
+</ol>
+
+<hr id="workshops" style="border: 0; height: 1px; background-color: #000;" />
+<p><strong>Full list of contributions to workshops and other conferences:</strong></p>
+
+<style>
+ol.wlist {
+  counter-reset: w-counter; /* initialize counter */
+  list-style: none;
+  padding-left: 0;
+}
+
+ol.wlist li::before {
+  counter-increment: w-counter;
+  content: "[W" counter(w-counter) "] ";
+  font-weight: bold;
+}
+</style>
+
+<ol class="wlist">
+  <li>Stefano Riva, A. Cammi, C. Introini, and S. Lorenzi, “Hybrid Data Assimilation Methods: Application to the DYNASTY Experimental Facility,” in 13th International Topical Meeting of Nuclear Reactor Thermal-Hydraulics, Operation and Safety (NUTHOS), (Taipei, Taiwan), pp. 505–518, September 2022.</li>
+
+  <li>Stefano Riva, C. Introini, L. Marocco, L. Savoldi, and A. Cammi, “Inclusion of the buoyancy forces in the Incompressible Schrödinger Flow algorithm to simulate inviscid fluids,” in 41st UIT International Heat Transfer Conference, (Naples, Italy), June 2024.</li>
+
+  <li>Stefano Riva, C. Introini, X. Wang, and A. Cammi, “Advection-Diffusion of Scalars with the Incompressible Schrödinger Flow,” in The 14th International Topical Meeting on Nuclear Reactor Thermal-Hydraulics, Operation, and Safety (NUTHOS-14), (Vancouver, Canada), August 2024.</li>
+
+  <li>C. Introini, Stefano Riva, L. Loi, X. Wang, and A. Cammi, “Learning the dynamics of un-observable fields from out-core measurements of simple fields using Supervised Learning,” in The 11th International Symposium on Symbiotic Nuclear Power: AI Application in Nuclear Systems (ISSNP2024), (Harbin, Heilongjiang, China), September 2024.</li>
+
+  <li>C. Introini, Stefano Riva, L. Loi, X. Wang, and A. Cammi, “State estimation in the DYNASTY experimental facility using Supervised Learning,” in The 11th International Symposium on Symbiotic Nuclear Power: AI Application in Nuclear Systems (ISSNP2024), (Harbin, Heilongjiang, China), September 2024.</li>
+
+  <li>P. M. Wyder, J. A. Goldfeder, A. Yermakov, Y. Zhao, Stefano Riva, J. P. Williams, D. Zoro, A. S. Rude, M. Tomasetto, J. Germany, J. Bakarji, G. Maierhofer, M. Cranmer, and J. N. Kutz, “Common Task Framework For a Critical Evaluation of Scientific Machine Learning Algorithms,” in Championing Open-source Development in ML Workshop @ ICML25, 2025. URL: <a href="https://openreview.net/forum?id=licgHdwg5y">link</a>.</li>
+
+  <li>C. Introini, C. Stecchetti, Stefano Riva, A. Cammi, F. Foulon, and M. Alrwashdeh, “Dynamics of the Molten Salt Fast Reactor Through Parametric Dynamic Mode Decomposition,” in The 2nd Saudi International Conference on Nuclear Power Engineering (SCOPE), (Dhahran, Saudi Arabia), November 2025.</li>
+
+  <li>Stefano Riva, C. Introini, A. Cammi, X. Wang, F. Foulon, and M. Alrwashdeh, “Development of a Buoyancy-Driven Incompressible Schrodinger Flow Algorithm for Inviscid Flows,” in The 2nd Saudi International Conference on Nuclear Power Engineering (SCOPE), (Dhahran, Saudi Arabia), November 2025.</li>
+
+  <li>A. Cammi, C. Introini, Stefano Riva, X. Wang, F. Foulon, and M. Alrwashdeh, “Robust Model Identification for Pressurized Water Reactor Systems using Sparse Identification of Nonlinear Dynamics,” in The 2nd Saudi International Conference on Nuclear Power Engineering (SCOPE), (Dhahran, Saudi Arabia), November 2025.</li>
+
+  <li>C. Introini, Stefano Riva, A. Cammi, X. Wang, F. Foulon, and M. Alrwashdeh, “The Data-Driven Reduced Order Modelling Framework: Application on the DYNASTY Experimental Facility,” in The 2nd Saudi International Conference on Nuclear Power Engineering (SCOPE), (Dhahran, Saudi Arabia), November 2025.</li>
+
+  <li>A. Yermakov, Y. Zhao, M. Denolle, Y. Ni, P. M. Wyder, J. A. Goldfeder, Stefano Riva, J. P. Williams, D. Zoro, A. S. Rude, M. Tomasetto, J. Germany, J. Bakarji, G. Maierhofer, M. Cranmer, and J. N. Kutz, “The Seismic Wavefield Common Task Framework,” in Submitted to The Fourteenth International Conference on Learning Representations, 2025. Under review. URL: <a href="https://openreview.net/forum?id=u4N7Kl6gzE">link</a>.</li>
+</ol>
 
 
+<!-- 
+{% comment %} 1. Generate Table of Contents Links {% endcomment %}
+{% assign toc_links = "" %}
+{% for category in site.publication_category  %}
+  {% assign category_id = category[0] | slugify %} 
+  {% assign toc_links = toc_links | append: "<li><a href='#" | append: category_id | append: "'>" | append: category[1].title | append: "</a></li>" %}
+{% endfor %}
+
+
+<div class="toc-sidebar">
+  <h3>Publication Categories</h3>
+  <ul>
+    {{ toc_links }}
+  </ul>
+</div>
+
+{% include base_path %}
+
+{% comment %} 2. Main Publication Rendering - Add IDs to titles {% endcomment %}
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% assign category_id = category[0] | slugify %} {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      
+      {% unless title_shown %}
+        <h2 id="{{ category_id }}">{{ category[1].title }}</h2><hr /> 
+        {% assign title_shown = true %}
+      {% endunless %}
+      
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% endif %} -->

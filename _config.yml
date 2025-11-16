@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Stefano Riva's Homepage"
+title                    : "Stefano Riva"
 title_separator          : "-"
 name                     : &name "Stefano Riva"
 description              : &description "Stefano Riva's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -23,38 +23,38 @@ repository               : "academicpages/Steriva.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "prof_pic.jpeg"
   name             : "Stefano Riva"
-  pronouns         : "he/his" # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  pronouns         : # example: "she/her"  
+  bio              : "Researcher in computational methods for nuclear reactors, with a focus on Reduced Order Modelling and Machine Learning for state estimation. Passionate about bridging physics-based models and data-driven approaches."
+  location         : "Milan, Italy"
+  employer         : "Politecnico di Milano"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "stefano.riva@polimi.it" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=it&user=EosMyNQAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0001-9997-4101"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  pubmed           : 
+  researchgate     : "https://www.researchgate.net/profile/Stefano-Riva-4"
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57751589700"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "Steriva"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -63,7 +63,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : steriva
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -81,13 +81,11 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+  journals:
+    title: 'Selected Journal Articles'    
   conferences:
-    title: 'Conference Papers'
-
+    title: 'Selected Contributions to International Conferences'
+  
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
@@ -218,19 +216,12 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -279,6 +270,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _talks
   - scope:
       path: ""
