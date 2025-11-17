@@ -85,6 +85,8 @@ publication_category:
     title: 'Selected Journal Articles'    
   conferences:
     title: 'Selected Contributions to International Conferences'
+  preprints:
+    title: 'Selected Preprints'
   
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
