@@ -1,13 +1,13 @@
 ---
 title: "pySHRED and NuSHRED"
-excerpt: "Python packages for Shallow Recurrent Decoders (SHRED) and a specific version for nuclear applications (NuSHRED)<br/><img src='../../images/immy_shred_rom_msfr.svg' width='700'>"
+excerpt: "Python packages for Shallow Recurrent Decoders (SHRED) and a specific version for nuclear applications (NuSHRED)<br/><img src='../../images/immy_shred_rom_msfr.png' width='700'>"
 collection: projects
 ---
 
 Shallow Recurrent Decoders (**SHRED**) are a novel class of neural networks designed for efficient and accurate state estimation from few sparse sensor measurements.
 
 <p align="center">
-  <img src='../../images/immy_shred_rom_msfr.svg' width="1000" alt="shred logo">
+  <img src='../../images/immy_shred_rom_msfr.png' width="1000" alt="shred logo">
 </p>
 
 The original SHRED has been proposed by [Jan P. Williams et al. (2022)](https://royalsocietypublishing.org/doi/full/10.1098/rspa.2024.0054) for spatial-temporal data reconstruction.

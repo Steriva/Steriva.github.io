@@ -7,9 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am Stefano, a researcher specializing in **computational methods for nuclear reactors**. My work focuses on developing advanced numerical techniques, reduced order models, and machine learning approaches to enhance the efficiency, safety, and predictability of reactor simulations.
+**Current position:** Researcher at the Department of Energy, Politecnico di Milano.
 
-I am currently affiliated with Politecnico di Milano, where I conduct research on topics such as reduced order modelling and data-driven techniques for reactor dynamics. My research often combines high-performance computing with machine learning methods to tackle complex problems in nuclear engineering, mainly focused on the state estimation problem in nuclear reactors.
+I am Stefano Riva, a researcher in **computational methods for nuclear reactors**. My work focuses on advanced numerical modelling, reduced order methods, and scientific machine learning to improve the efficiency, safety, and reliability of reactor simulations.
+
+I am currently working at **Politecnico di Milano**, where I work on data-driven and physics-based approaches for reactor dynamics and state estimation. My research integrates high-performance computing, multi-physics modelling, and machine learning to address complex challenges in modern nuclear engineering.
+
+I am the developer of several open-source frameworks, including **pyforce**, **pySHRED**, and **ctf4science**, focusing on model reduction and scientific machine learning for dynamical systems.
 
 ## Research Interests
 

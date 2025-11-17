@@ -69,6 +69,31 @@ Awards
 * Young Professional Award – NURETH-21 Conference, 02 September 2025
 * Best Research Contribution Award (co-author) – SCOPE2 Conference, 05 November 2025
 
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; margin-top: 0.5rem;">
+
+  <div style="flex: 0 1 45%; text-align: center;">
+    <img src="/images/awards/cise.jpeg" alt="CISE2007" style="max-height: 150px; width: auto; border-radius: 8px;">
+    <p><em>CISE2007</em></p>
+  </div>
+
+  <div style="flex: 0 1 45%; text-align: center;">
+    <img src="/images/awards/nuthos14.jpeg" alt="NUTHOS-14" style="max-height: 150px; width: auto; border-radius: 8px;">
+    <p><em>NUTHOS-14</em></p>
+  </div>
+
+  <div style="flex: 0 1 45%; text-align: center;">
+    <img src="/images/awards/enen_phd_prize.jpeg" alt="ENEN PhD Prize" style="max-height: 150px; width: auto; border-radius: 8px;">
+    <p><em>ENEN PhD Prize 2025</em></p>
+  </div>
+
+  <div style="flex: 0 1 45%; text-align: center;">
+    <img src="/images/awards/nureth21.jpeg" alt="NURETH-21" style="max-height: 150px; width: auto; border-radius: 8px;">
+    <p><em>NURETH-21</em></p>
+  </div>
+
+</div>
+
+
 Selected Github Repositories
 ======
 * [pyISFenix](https://github.com/ERMETE-Lab/MP-pyISFenix) – Python framework for the Incompressible Schrödinger Flow using FEniCSx ([Documentation](https://ermete-lab.github.io/MP-pyISFenix/intro.html))
