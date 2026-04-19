@@ -7,21 +7,21 @@ redirect_from:
   - /about.html
 ---
 
-**Current position:** Researcher at the Department of Energy, Politecnico di Milano.
+**Current position:** Research Scientist at Autodesk Research in Physics-Informed AI/ML
 
-I am Stefano Riva, a researcher in **computational methods for nuclear reactors**. My work focuses on advanced numerical modelling, reduced order methods, and scientific machine learning to improve the efficiency, safety, and reliability of reactor simulations.
+I am Stefano Riva, a **Research Scientist** specializing in **Physics-Informed AI/ML** for engineering and design. My work focuses on bridging the gap between traditional physics-based models and data-driven AI approaches to accelerate high-fidelity simulations.
 
-I am currently working at **Politecnico di Milano**, where I work on data-driven and physics-based approaches for reactor dynamics and state estimation. My research integrates high-performance computing, multi-physics modelling, and machine learning to address complex challenges in modern nuclear engineering.
+Currently, I am part of the **Computational Sciences** group at **Autodesk Research** in London. Before joining Autodesk in April 2026, I completed my PhD *cum laude* at **Politecnico di Milano**, where I developed advanced data-driven techniques for state estimation in nuclear reactors and collaborated on reduced-order models for the energy sector.
 
-I am the developer of several open-source frameworks, including **pyforce**, **pySHRED**, and **ctf4science**, focusing on model reduction and scientific machine learning for dynamical systems.
+I contributed to the development of several open-source frameworks, including **pyforce**, **pySHRED**, and **ctf4science**, which focus on model order reduction and scientific machine learning for complex dynamical systems.
 
 ## Research Interests
 
-- Scientific Machine Learning techniques for Nuclear Reactors
-- Nuclear Reactor Modelling
-- Reduced Order Modelling and Data Assimilation
+- Scientific Machine Learning techniques for Fluid Dynamics and Nuclear Reactors
+- Reduced Order Models and Data Assimilation
+- Multi-physics Modelling of Nuclear Reactors
 - Computational Fluid Dynamics
-- Numerical Methods for engineering
+- Numerical Methods for Engineering
 
 ## PhD Thesis
 
@@ -31,16 +31,8 @@ I am the developer of several open-source frameworks, including **pyforce**, **p
 
 **Supervisors:** Prof. Antonio Cammi, Dr. Carolina Introini, Prof. J. Nathan Kutz
 
+I obtained my PhD in Energy and Nuclear Science and Technology in 2025 at *Politecnico di Milano*. My research focused on the development of fast, reliable, and data-driven **state estimation techniques** to improve the efficiency and safety of next-generation nuclear systems.
 
+To address the challenges of monitoring reactors in harsh environments, my work investigated how to infer the full reactor state from **sparse and indirect sensor observations**. I integrated physics-based models with **Reduced Order Modelling (ROM)** and **Data Assimilation** to enable real-time computation. Furthermore, I explored **Scientific Machine Learning**—specifically the **Shallow Recurrent Decoder (SHRED)** architecture—to handle nonlinear dynamics and model inaccuracies with high efficiency.
 
-I got a PhD in Nuclear Engineering in 2025 at *Politecnico di Milano* (Italy), focused on the development of fast, reliable, and data-driven **state estimation techniques for nuclear reactors**, with a particular emphasis on next-generation concepts such as molten-salt systems. These reactors pose significant sensing challenges due to their harsh operating environments, making traditional in-core measurements difficult or impossible.
-
-To address this, my research investigated how to infer the full reactor state from **few, sparse, and often indirect sensor observations**, combining them with physics-based background models described by parametric PDEs within a **Data Assimilation framework** combined with **Reduced Order Modelling (ROM)** to enable real-time computation. Classical ROM approaches—such as GEIM and the Parametrized-Background Data-Weak formulation—were explored, as well as advanced data-driven methods capable of correcting model inaccuracies. Building on recent developments in Scientific Machine Learning, I extensively studied the **Shallow Recurrent Decoder (SHRED)** architecture, a lightweight neural network framework capable of handling nonlinear dynamics, parametric datasets, and complex reactor behaviour with minimal training effort.
-
-These techniques were validated on several challenging case studies, including:
-- Molten Salt Fast Reactor (MSFR)
-- TRIGA Mark II research reactor
-- Fluid-dynamics benchmarks
-- The DYNASTY experimental facility at Politecnico di Milano
-
-The results demonstrate the strong potential of ROM-based and machine-learning-based state estimation methods for future **digital twins** of nuclear systems, ultimately supporting safer and more efficient reactor operation.
+These techniques were validated on several challenging case studies, including the Molten Salt Fast Reactor (MSFR), the TRIGA Mark II research reactor, and the DYNASTY experimental facility.
