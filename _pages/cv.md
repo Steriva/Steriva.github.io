@@ -21,14 +21,14 @@ Education
   * Supervisors: Prof. Antonio Cammi, Prof. Stefano Lorenzi, Dr. Carolina Introini
 * Bachelor's Degree in Energy Engineering, Politecnico di Milano, Milan, Italy (Oct 2016 – Sep 2019)
 
-Work Experience
+Research and Teaching Experience
 ======
-* **April 2026 – Present: Research Scientist**
-  * Physics-Informed AI/ML, Autodesk Research, London, UK
-  * Activities: Bridging data-driven AI approaches with traditional physics-based models for advanced simulation applications.
-* **Aug 2025 – March 2026: Research Collaborator**
+* **April 2026 – Present: Research Scientist — Physics-Informed AI**
+  * Autodesk Research, π-Labs, London, UK
+  * Activities: Bridging data-driven AI approaches with traditional physics-based models for advanced simulation and design applications.
+* **Aug 2025 – March 2026: Postdoctoral Researcher**
   * Department of Energy, Politecnico di Milano, Milan, Italy
-  * Activities: Development, verification, and validation of Reduced-Order Models for two-phase flow simulations in collaboration with Eni Spa.
+  * Activities: Development, verification and validation of Reduced-Order Models for two-phase flow simulations in the oil & gas sector, in collaboration with Eni Spa.
   * Supervisors: Prof. Antonio Cammi and Prof. Fabio Inzoli
 * **Oct 2024 – March 2025: VISIT Intern**
   * Electrical and Computer Engineering Department, University of Washington, Seattle, USA
@@ -38,12 +38,17 @@ Work Experience
   * Politecnico di Milano, Milan, Italy
   * Supervisor: Prof. Antonio Cammi
 
+Professional Affiliations
+======
+* **Member**, Associazione Italiana Nucleare (AIN), Young Generation, Italy (2025 – Present)
+* **Member**, American Nuclear Society (ANS), Mathematics & Computation Division, Young Generation, USA (2025 – Present)
+
 Skills
 ======
 * **Operating Systems:** MacOS, Linux, Windows
 * **Languages:** Python (advanced), C++ (intermediate), VisualBasic (intermediate), R (basic)
 * **Numerical Computing:** MATLAB, Simulink
-* **Finite Element Solvers:** Dolfinx (Python), Freefem++ (basic)
+* **Finite Element Solvers:** Dolfinx (Python Package), Freefem++ (basic)
 * **CFD:** OpenFOAM, Ansys FLUENT (basic)
 * **Machine Learning:** scikit-learn, PyTorch
 * **Developer Tools:** Git, Visual Studio Code, Jupyter
@@ -99,14 +104,27 @@ Awards
 
 Selected Github Repositories
 ======
-* [pyISFenix](https://github.com/ERMETE-Lab/MP-pyISFenix) – Python framework for the Incompressible Schrödinger Flow using FEniCSx
-* [pyforce](https://github.com/Steriva/pyforce) – Python framework for data-driven model order reduction of multi-physics problems
+* [pyISFenix](https://github.com/ERMETE-Lab/MP-pyISFenix) – Python framework for the Incompressible Schrödinger Flow using FEniCSx ([documentation](https://ermete-lab.github.io/MP-pyISFenix/intro.html))
+* [pyforce](https://github.com/ERMETE-Lab/ROSE-pyforce) – Python framework for data-driven model order reduction of multi-physics problems ([documentation](https://ermete-lab.github.io/ROSE-pyforce/intro.html))
 * [NuSHRED](https://github.com/ERMETE-Lab/NuSHRED) – Shallow Recurrent Decoder for Nuclear Reactors applications
-* [PySHRED](https://github.com/PyShred-Dev/PyShred) – Package for Shallow Recurrent Decoding
-* [ctf4science](https://github.com/CTF-for-Science/ctf4science) – Modular platform for benchmarking methods on dynamic systems
+* [PySHRED](https://github.com/PyShred-Dev/PyShred) – Package for Shallow Recurrent Decoding ([documentation](https://pyshred-dev.github.io/pyshred/))
+* [ctf4science](https://github.com/CTF-for-Science/ctf4science) – Modular platform for benchmarking methods on dynamic systems ([documentation](https://ctf-for-science.github.io/ctf4science/))
 
 Volunteering Experience
 ======
 * Football Coach, A.S. Stella Azzurra '56, Cinisello Balsamo, Italy (Sep 2012 – June 2017)
 * Theatre Actor, Depramirao company, Cinisello Balsamo, Italy (Apr 2013 – Nov 2014)
-* Adolescents’ Educator, Oratorio San Luigi, Cinisello Balsamo, Italy (Sep 2014 – Sep 2020, Sep 2022 – Sep 2024)
+* Adolescents' Educator, Oratorio San Luigi, Cinisello Balsamo, Italy (Sep 2014 – Sep 2020, Sep 2022 – Sep 2024)
+
+Peer-Review Activity
+======
+Reviewer of manuscripts for international peer-reviewed journals in nuclear engineering, fluid dynamics, computational methods, and scientific machine learning (*Nuclear Engineering and Design*, *Physics of Fluids*, *Applied Mathematical Modelling*, *Computer Physics Communications*, *Journal of Computational Physics*, *Annals of Nuclear Energy*, *Applied Energy*, and *Progress in Nuclear Energy*).
+
+Co-Supervision of Master's Theses
+======
+* **Claudio Scardino** (2026), *State Estimation in Magnetohydrodynamics: from interpolation to recurrent networks*, Politecnico di Milano
+* **Daniele Valisa** (2026), *Data-Driven Signal Reconstruction for Fault Tolerance in Molten Salt Reactors*, Politecnico di Milano
+* **Tommaso Pirola** (2026), *Initial development and verification of a Digital Twin for Molten Salt Fast Reactor under accidental conditions*, Politecnico di Milano
+* **Finn Bowcott** (2025), *Predicting spatial-temporal systems from sparse and movable observation points using deterministic machine learning methods*, Imperial College London
+* **Claudio Stecchetti** (2025), *Model Discovery for Fluid and Reactor Dynamics with Parametric Dynamic Mode Decomposition*, Politecnico di Milano
+* **Cyrille de Lurion de l'Egouthail** (2024), *Shadowing Effect Correction for the Pavia TRIGA Reactor Using Monte Carlo Data and Reduced Modelling Techniques*, Politecnico di Milano

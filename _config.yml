@@ -26,7 +26,7 @@ author:
   avatar           : "prof_pic.jpeg"
   name             : "Stefano Riva"
   pronouns         : # example: "she/her"  
-  bio              : "Research Scientist at Autodesk Research specializing in Physics-Informed AI/ML. Focus on bridging physics-based models with data-driven AI to accelerate high-fidelity simulations."
+  bio              : "Research Scientist specializing in Physics-Informed AI/ML for engineering and design. Proven track record in reduced-order models and data-driven state estimation, bridging traditional numerical solvers with machine learning to accelerate high-fidelity simulations."
   location         : "London, UK"
   employer         : "Autodesk Research"
   uri              : # URL
